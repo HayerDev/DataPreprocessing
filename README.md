@@ -35,13 +35,13 @@ Located in the server/ directory:
 Provide instructions on how to set up and run the project.
  Include steps to install dependencies, start the server, and open Jupyter notebooks.
 
-#### Starting the Server/
+#### Starting the Server
 	cd server
 	npm install
 	node app
-#### Running Scripts/
+#### Running Scripts
 	cd notebooks
-	jupyter notebook/
+	jupyter notebook
 **Some of the scripts themselves can be run in isolation, namely generateCSV, analysis, preprocessing, and final_preprocessing.
 import and export are used to interface with the server for file storage and retrieval**
 
