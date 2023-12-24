@@ -15,8 +15,7 @@ Located in the notebooks/ directory:
 - exports.ipynb: Exports data to the server
 - analysis.ipynb: Provides data insights, including histogram, boxplot, and heatmap
 - preprocessing.ipynb: fills missing values and handles outliers using the Interquartile Range (IQR) method
-- final_preprocessing.ipynb: Normalizes the dataset/
-**generateCSV will generate a retail business based dataset!**
+- final_preprocessing.ipynb: Normalizes the dataset
 ### Server
 Located in the server/ directory:
 
@@ -44,6 +43,7 @@ Provide instructions on how to set up and run the project.
 	jupyter notebook
 **Some of the scripts themselves can be run in isolation, namely generateCSV, analysis, preprocessing, and final_preprocessing.
 import and export are used to interface with the server for file storage and retrieval**
+**generateCSV will generate a retail business based dataset!**
 
 ## Requirements
 - Node.js
