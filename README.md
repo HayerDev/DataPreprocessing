@@ -16,7 +16,7 @@ Located in the notebooks/ directory:
 - analysis.ipynb: Provides data insights, including histogram, boxplot, and heatmap
 - preprocessing.ipynb: fills missing values and handles outliers using the Interquartile Range (IQR) method
 - final_preprocessing.ipynb: Normalizes the dataset
-
+**generateCSV will generate a retail business based dataset!**
 ### Server
 Located in the server/ directory:
 
