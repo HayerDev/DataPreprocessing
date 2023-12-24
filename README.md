@@ -26,20 +26,20 @@ Located in the server/ directory:
 - filestorage/dataModel.js: Manages file storage operations
 
 ### File Storage Directories
-uploads/: Contains files uploaded to the server.
-data/: Files generated from scripts
-server/uploads/: Files received by the server
-server/data/: Files stored by the serveer
+- uploads/: Contains files uploaded to the server.
+- data/: Files generated from scripts
+- server/uploads/: Files received by the server
+- server/data/: Files stored by the server
 
 ## How to Use
 Provide instructions on how to set up and run the project.
  Include steps to install dependencies, start the server, and open Jupyter notebooks.
 
-- Starting the Server/
+#### Starting the Server/
 	cd server
 	npm install
 	node app
-- Running Scripts/
+#### Running Scripts/
 	cd notebooks
 	jupyter notebook/
 **Some of the scripts themselves can be run in isolation, namely generateCSV, analysis, preprocessing, and final_preprocessing.
